@@ -11,30 +11,29 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
 		<!-- Library versions -->
-		<com.google.guava.version>31.0-jre</com.google.guava.version>
+		<com.google.guava.version>31.1-jre</com.google.guava.version>
 		<org.apache.commons.commons-io.version>2.11.0</org.apache.commons.commons-io.version>
 		<org.apache.httpcomponents.httpclient.version>4.5.13</org.apache.httpcomponents.httpclient.version>
-		<org.apache.httpcomponents.httpcore.version>4.4.14</org.apache.httpcomponents.httpcore.version>
-		<org.apache.ivy.version>2.5.0</org.apache.ivy.version>
-		<org.apache.logging.log4j.version>2.17.1</org.apache.logging.log4j.version>
-		<org.apache.maven.maven-core.version>3.8.2</org.apache.maven.maven-core.version>
-		<org.eclipse.jetty.version>11.0.6</org.eclipse.jetty.version>
+		<org.apache.httpcomponents.httpcore.version>4.4.15</org.apache.httpcomponents.httpcore.version>
+		<org.apache.ivy.version>2.5.1</org.apache.ivy.version>
+		<org.apache.logging.log4j.version>2.18.0</org.apache.logging.log4j.version>
+		<org.apache.maven.maven-core.version>3.8.6</org.apache.maven.maven-core.version>
+		<org.eclipse.jetty.version>11.0.11</org.eclipse.jetty.version>
 		<org.eclipse.sisu.plexus.version>0.3.5</org.eclipse.sisu.plexus.version>
 		<org.glassfish.javax.json.version>1.1.4</org.glassfish.javax.json.version>
-		<org.json.version>20210307</org.json.version>
-		<org.kohsuke.github-api.version>1.128</org.kohsuke.github-api.version>
-		<org.codehaus.groovy.groovy-eclipse-compiler.version>3.7.0</org.codehaus.groovy.groovy-eclipse-compiler.version>
+		<org.json.version>20220320</org.json.version>
+		<org.kohsuke.github-api.version>1.307</org.kohsuke.github-api.version>
+		<org.codehaus.groovy.groovy-eclipse-compiler.version>3.7.1</org.codehaus.groovy.groovy-eclipse-compiler.version>
 		<org.codehaus.groovy.groovy-eclipse-batch.version>3.0.8-01</org.codehaus.groovy.groovy-eclipse-batch.version>
-		<org.codehaus.groovy.groovy-json.version>3.0.9</org.codehaus.groovy.groovy-json.version>
+		<org.codehaus.groovy.groovy-json.version>3.0.12</org.codehaus.groovy.groovy-json.version>
 
 
 		<!-- Plugin versions -->
-		<maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
-		<maven-dependency-plugin.version>3.2.0</maven-dependency-plugin.version>
-		<gmavenplus-plugin.version>1.7.1</gmavenplus-plugin.version>
-		<!-- source plugin \> = 2.1 is required to use the no-fork goals -->
-		<maven-source-plugin.version>2.4</maven-source-plugin.version>
-		<maven-shade-plugin>3.2.1</maven-shade-plugin>
+		<maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
+		<maven-dependency-plugin.version>3.3.0</maven-dependency-plugin.version>
+		<gmavenplus-plugin.version>1.13.1</gmavenplus-plugin.version>
+		<maven-source-plugin.version>3.2.1</maven-source-plugin.version>
+		<maven-shade-plugin>3.3.0</maven-shade-plugin>
 	</properties>
 
 	<dependencies>
